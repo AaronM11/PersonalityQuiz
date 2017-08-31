@@ -14,6 +14,7 @@
 		A40640161F5395D400A10938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40640141F5395D400A10938 /* LaunchScreen.storyboard */; };
 		A406401E1F5399D200A10938 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A406401D1F5399D200A10938 /* QuestionsViewController.swift */; };
 		A40640201F5399E000A10938 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A406401F1F5399E000A10938 /* ResultsViewController.swift */; };
+		A40640221F57BF0300A10938 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40640211F57BF0300A10938 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A40640171F5395D400A10938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A406401D1F5399D200A10938 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		A406401F1F5399E000A10938 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		A40640211F57BF0300A10938 /* QuestionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A406400B1F5395D400A10938 /* AppDelegate.swift */,
 				A406400D1F5395D400A10938 /* IntroductionViewController.swift */,
 				A406400F1F5395D400A10938 /* Main.storyboard */,
+				A40640211F57BF0300A10938 /* QuestionData.swift */,
 				A406401F1F5399E000A10938 /* ResultsViewController.swift */,
 				A406401D1F5399D200A10938 /* QuestionsViewController.swift */,
 				A40640121F5395D400A10938 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				A406400E1F5395D400A10938 /* IntroductionViewController.swift in Sources */,
 				A406400C1F5395D400A10938 /* AppDelegate.swift in Sources */,
+				A40640221F57BF0300A10938 /* QuestionData.swift in Sources */,
 				A406401E1F5399D200A10938 /* QuestionsViewController.swift in Sources */,
 				A40640201F5399E000A10938 /* ResultsViewController.swift in Sources */,
 			);
@@ -312,6 +316,7 @@
 				A406401C1F5395D400A10938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
